@@ -1,18 +1,14 @@
 .mainheading{
     text-align: center;
-    color: orange;
+    color: white;
+    padding-top:2em;
+    padding-bottom: 2em;
+    background-color: #47bf7b;
 }
-            
-nav{ height:2em;
-    background-color:lightgray ;
-}
-            
-header {
-    background-color:grey;
-    color:orange;
-    text-align:center;
-    padding:0.3em; 
+       
+           
+body{ background-color:#E1E5E3;
 }
 
-body{ background-color:lightgray;
+#pagenav{float: right;
 }
