@@ -1,3 +1,18 @@
 .mainheading{
-    text-align: center
-            }
+    text-align: center;
+    color: orange;
+}
+            
+nav{ height:2em;
+    background-color:lightgray ;
+}
+            
+header {
+    background-color:grey;
+    color:orange;
+    text-align:center;
+    padding:0.3em; 
+}
+
+body{ background-color:lightgray;
+}
