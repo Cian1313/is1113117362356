@@ -2,7 +2,7 @@
 <html>
     
     <head>
-        <title>Personal</title>
+        <title>Personal Details</title>
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
         
         <!--Adding Bootstrap-->
@@ -12,7 +12,32 @@
     </head>
     
     <body>
-        <h1 class="mainheading">Personal Details</h1>
+        <!--Creating a navigation bar -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+       
+               <!--Adding menu items -->
+                <div>
+                    <ul class="nav navbar-nav">
+                        
+                        <li class><a href = "homepage.html">Home</a></li>
+                        <!--Creating drodown list -->
+                        <li class= "active dropdown" >
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curriculm Vitae <span class="caret"></span></a>
+                          
+                           <!-- Addig dropdown list items-->
+                            <ul class="dropdown-menu">
+                                <li><a href="cv_page1.html">Personal Details</a></li>
+                                <li><a href="cv_page2.html">Eduactional Details</a></li>
+                                <li><a href="cv_page3.html">Work Experience</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>    
+                </div> 
+           </div>
+       </nav>
+        <h1 class="header">Personal Details</h1>
         
         
         <p><strong>Name:</strong> Cian O'Sullivan</p>

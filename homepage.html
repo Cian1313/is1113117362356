@@ -11,23 +11,32 @@
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     
-    </head>
+  
     
     <body>
        <h1 class="mainheading">117362356 - IS1113 Project</h1>
        <!--Creating a navigation bar -->
         <nav class="navbar navbar-default">
             <div class="container-fluid">
-               
-               <div class="navbar-header">
-                   <a href="#" class="navbar-brand">UCC</a>
-               </div>
        
                <!--Adding menu items -->
                 <div>
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="cv_page1.html">Curriculm Vitae</a></li>
-                    </ul>
+                        
+                        <li class = "active"><a href = "homepage.html">Home</a></li>
+                        <!--Creating drodown list -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curriculm Vitae <span class="caret"></span></a>
+                          
+                           <!-- Addig dropdown list items-->
+                            <ul class="dropdown-menu">
+                                <li><a href="cv_page1.html">Personal Details</a></li>
+                                <li><a href="cv_page2.html">Eduactional Details</a></li>
+                                <li><a href="cv_page3.html">Work Experience</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>    
                 </div> 
            </div>
        </nav>
