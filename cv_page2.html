@@ -6,22 +6,44 @@
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
         
          <!--Adding Bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     </head>
     
     <body>
-        <h1 class="mainheading">Educational Details</h1>
+        <!--Creating a navigation bar -->
+        <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+            <!--Adding menu items -->
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+                <!--Creating drodown list-->
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Curriculm Vitae</a>
+                        <!-- Addig dropdown list items-->
+                        <ul class="dropdown-menu">
+                            <li><a href="cv_page1.html" class="dropdown-item">Personal Details</a></li>
+                            <li><a href="cv_page2.html" class="dropdown-item">Eduactional Details</a></li>
+                            <li><a href="cv_page3.html" class="dropdown-item">Work Experience</a></li>
+                        </ul>
+                </li>
+            </ul>
+        </nav>
+       
+        <h1 class="header">Educational Details</h1>
         
-        <p><strong>College:</strong> UCC</p>
-        <p><strong>Course:</strong> B.I.S.</p>
-        <p><strong>Year:</strong> 2017-2021</p>
         
-        <br/>
- 
-        <p><strong>Secondary School:</strong> St.Brendans College</p>
-        <p><strong>Year:</strong> 2011-2017</p>
+            <p><strong>College:</strong> UCC</p>
+            <p><strong>Course:</strong> B.I.S.</p>
+            <p><strong>Year:</strong> 2017-2021</p>
+            
+            <hr width= "50%" size="5" />
+     
+            <p><strong>Secondary School:</strong> St.Brendans College</p>
+            <p><strong>Year:</strong> 2011-2017</p>
         
         <nav aria-label="Page navigation example">
           <ul class="pagination" id="pagenav">

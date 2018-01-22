@@ -7,15 +7,22 @@
             }
                        
            
-body{ background-color:#E1E5E3;
+body{ background-color:lightgrey;
     }
 
 #pagenav{float: right;
         }
 
-#header{color:white;
+.header{color:white;
         padding-top:1em;
         padding-bottom:1em;
         background-color: #47bf7b;
         text-align:center;
-        }        
+        } 
+        
+#infobox{
+        right:2em;
+        top: 10em;
+        background-color: green
+}
+    

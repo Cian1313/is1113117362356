@@ -3,43 +3,41 @@
     
     <head>
         <title>117362356</title>
+        <!--linking to externl cass stylesheet-->
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
         
          <!--Adding Bootstrap-->
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     </head>
     
   
     
     <body>
-       <h1 class="mainheading">117362356 - IS1113 Project</h1>
-       <!--Creating a navigation bar -->
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-       
-               <!--Adding menu items -->
-                <div>
-                    <ul class="nav navbar-nav">
-                        
-                        <li class = "active"><a href = "homepage.html">Home</a></li>
-                        <!--Creating drodown list -->
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curriculm Vitae <span class="caret"></span></a>
-                          
-                           <!-- Addig dropdown list items-->
+      
+                 
+        <!--Creating a navigation bar -->
+            <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+                <!--Adding menu items -->
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="homepage.html">Home</a></li>
+                    <!--Creating drodown list-->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Curriculm Vitae</a>
+                            <!-- Addig dropdown list items-->
                             <ul class="dropdown-menu">
-                                <li><a href="cv_page1.html">Personal Details</a></li>
-                                <li><a href="cv_page2.html">Eduactional Details</a></li>
-                                <li><a href="cv_page3.html">Work Experience</a></li>
-
+                                <li><a href="cv_page1.html" class="dropdown-item">Personal Details</a></li>
+                                <li><a href="cv_page2.html" class="dropdown-item">Eduactional Details</a></li>
+                                <li><a href="cv_page3.html" class="dropdown-item">Work Experience</a></li>
                             </ul>
-                        </li>
-                    </ul>    
-                </div> 
-           </div>
-       </nav>
-   
+                    </li>
+                </ul>
+            </nav>
+            
+             <h1 class="mainheading">117362356 - IS1113 Project</h1>
     </body>
 </html>
