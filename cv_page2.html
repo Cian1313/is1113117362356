@@ -3,6 +3,8 @@
     
     <head>
         <title>Education</title>
+        
+        <!--linking to externl cass stylesheet-->
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
         
          <!--Adding Bootstrap-->
@@ -35,18 +37,17 @@
      
         <h1 class="header">Educational Details</h1>
         
-        <div class="row">
-            
-        </div>    
-        
-        <div class="row">
-            <div class="col"></div>
-            <div class="col">
+        <!--Using the Bootstrap Grid to layout webpage-->
+        <!--Row 1-->
+        <div class="row"> first row
+            <div class="col"></div> <!--Creating coloumn 1-->
+            <div class="col"><!--Creating coloumn 2-->
                 <p><strong>College:</strong> UCC</p>
                 <p><strong>Course:</strong> B.I.S.</p>
                 <p><strong>Year:</strong> 2017-2021</p>
             </div>
-            <div class="col">
+            <div class="col"><!--Creating coloumn 3-->
+                <!--Inserting an image which also a link to h UCC websit-->
                 <a href="https://www.ucc.ie/">
                     <img src="https://www.ucc.ie/en/media/academic/schoolofenglish/ucc.jpg" alt="UCC logo" height="120">
                 </a>
@@ -55,6 +56,7 @@
 
         <hr width= "50%" />
 
+        <!--Row 2-->
         <div class="row">
             <div class="col"></div>
             <div class="col">
@@ -69,6 +71,7 @@
             
             <hr width= "50%" />
             
+            <!--Row 3-->
             <div class="row">
             <div class="col"></div>
             <div class="col">
@@ -78,9 +81,12 @@
             <div class="col"></div> 
             </div>
              
-           
-        
-        <!-- Adding pagination to move easily between the CV pages-->
+            <!--Row 4-->
+            <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col">
+                <!-- Adding pagination to move easily between the CV pages-->
         <nav aria-label="Page navigation example">
           <ul class="pagination" id="pagenav">
             <li class="page-item"><a class="page-link bg-secondary <!-- Makes bg grey--> text-white" href="cv_page1.html">Previous</a></li>
@@ -90,5 +96,8 @@
             <li class="page-item"><a class="page-link bg-secondary text-white" href="cv_page3.html">Next</a></li>
           </ul>
         </nav>
+            </div> 
+            </div>
+        
     </body>
 </html>
