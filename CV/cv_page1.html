@@ -18,7 +18,9 @@
     </head>
     
     <body>
-       <!--Creating a navigation bar -->
+      
+       
+        <!--Creating a navigation bar -->
         <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
             <!--Adding menu items -->
             <ul class="navbar-nav">
@@ -26,17 +28,25 @@
                 <!--Creating drodown list-->
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Curriculm Vitae</a>
-                        <!-- Adding dropdown list items-->
+                        <!-- Addig dropdown list items-->
                         <ul class="dropdown-menu">
-                            <li><a href="../cv_page1.html" class="dropdown-item">Personal Details</a></li>
+                            <li><a href="cv_page1.html" class="dropdown-item">Personal Details</a></li>
                             <li><a href="cv_page2.html" class="dropdown-item">Eduactional Details</a></li>
                             <li><a href="cv_page3.html" class="dropdown-item">Work Experience</a></li>
                         </ul>
                 </li>
+                <!--Creating dropdown list for interest-->
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Interests</a>
+                        <ul class="dropdown-menu">
+                            <!--<li><a href="../Interest/Sports.html" class="dropdown-item">Sports</a></li>-->
+                            <li><a href="../Interest/travel.html" class="dropdown-item">Travel</a></li>
+                        </ul>        
+                </li>
             </ul>
         </nav>
         
-       <!--Page Content-->
+        <!--Page Content-->
         <h1 class="header">Personal Details</h1>
         
         <p>I am currently an undergraduate at University College Cork working towards a Bachelor's 
@@ -57,7 +67,7 @@
         <!-- Adding pagination to move easily between the CV pages-->
         <nav aria-label="Page navigation example" id="pagenav">
             <ul class="pagination">
-                <li class="page-item"><a class="page-link bg-dark" href="homepage.html">Home</a></li>
+                <li class="page-item"><a class="page-link bg-dark" href="../homepage.html">Home</a></li>
                 <li class="page-item"><a class="page-link bg-secondary text-white" href="cv_page1.html">1</a></li>
                 <li class="page-item"><a class="page-link bg-secondary text-white" href="cv_page2.html">2</a></li>
                 <li class="page-item"><a class="page-link bg-secondary text-white" href="cv_page3.html">3</a></li>
