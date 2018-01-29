@@ -4,7 +4,8 @@
     color: white;
     padding-top:2em;
     padding-bottom: 2em;
-    background-color: #47bf7b
+    background-color: #47bf7b;
+    margin:0;
 }
 
 #pagenav
@@ -19,6 +20,7 @@
     padding-bottom:1em;
     background-color: #47bf7b;
     text-align:center;
+    margin: 0;
 } 
         
 p
@@ -56,5 +58,19 @@ body
 {
     background-color: #D5D5D5;
 }
+
+.btnNext
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
 }
-bo

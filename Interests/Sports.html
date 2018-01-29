@@ -7,16 +7,43 @@
         <!--linking to externl cass stylesheet-->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
         
-        
+        <style>
+            p
+            {
+                color:white;
+            }
+            body, html 
+            {
+                height: 100%;
+                margin: 0;
+            }
+            
+            .backgroundimage 
+            {
+                /* The source of the background image */
+                background-image: url("https://killarney.ie/wp-content/uploads/2016/03/Killarney-golf-fishing-main.jpg");
+            
+                /* Full height */
+                height: 100%; 
+            
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
     </head>
     
-    <body>
+    <body class="backgroundimage" >
         <!--Page Content-->
         <h1 class="header">Sports</h1>
         
         <p><strong>Favorite Sport:</strong> Golf</p>
-        <p><strong>Traning</strong> Watch on TV :)</p>
+        <p><strong>Traning:</strong> Watch on TV :)</p>
         
-        <a href="travel.html" class="button" float="right">Next</a>
+        <img scr="https://upload.wikimedia.org/wikipedia/en/a/a9/Killarney_Golf_%26_Fishing_Club_arms.png" height="220px" width="125px" />
+        
+        <a href="travel.html" class="btnNext">Next</a>
+        
     </body>
 </html>
