@@ -11,16 +11,45 @@
 
 #section2
 {
-    background-color: rgb(44, 62, 80);
+   background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Australia-sydney-wide-hd-wallpaper-PIC-WPC003737.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #section3
 {
-    background-color: rgb(51, 153, 204);
+    background-image: url("http://blog.newyorkpass.com/wp-content/uploads/2017/11/nyc-aerial-skyline.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section
 {
+    
     text-align: center;
     color: white;
+    font-size:30px;
+    
+}
+
+
+.btnHome
+{
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
 }
