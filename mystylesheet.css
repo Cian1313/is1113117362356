@@ -29,9 +29,8 @@ p
 }
 a:hover 
 {
-    color:#47bf7b;
-    text-decoration:underline;
-    font-weight:bold
+    color:black;
+    font-weight:bold;
 }
 
 #ucclogo
@@ -75,3 +74,5 @@ body
     font-size: 16px;
     cursor: pointer;
 }
+
+
