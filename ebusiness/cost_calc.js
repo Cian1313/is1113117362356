@@ -8,11 +8,23 @@ function calcSub()
     if(document.getElementById('salesforce').checked)
     {
         argSubTotal = 100; //If salesforce is checked the variable = 100
-    }
-    else
+    }//End if statement
+    
+    if(document.getElementById('Amazon Web Services').checked)
     {
-        argSubTotal = 300; //Other option has a value of 300
-    }
+        argSubTotal = 300;
+    }//End if statement
+    
+    if(document.getElementById('Cloud 9').checked)
+    {
+        argSubTotal = 200;
+    }//End if statement
+    
+    if(document.GetElementById('Gmail').checked)
+    {
+        argSubTotal = 400;
+    }//End if statement
+    
     display(argSubTotal) //Passing variable in the display function
 }
 

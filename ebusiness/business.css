@@ -1,0 +1,55 @@
+body
+{
+    font-family: Helvetica;
+}
+
+.formpage
+{
+    text-align: center;
+}
+
+.clear
+{
+    border-radius: 15px;
+    background:white;
+    color: red;
+    border-color: red;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: solid;
+    border-width:2px;
+    text-decoration: none;
+}
+
+.determine
+{
+    border-radius: 15px;
+    background:lightblue;
+    color: blue;
+    border-color: blue;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: solid;
+    border-width:2px;
+}
+
+button hover 
+{
+    font-weight: bold;
+}
+
+.cart
+{
+    border-radius: 15px;
+    background:lightgreen;
+    color: green;
+    border-color: green;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: solid;
+    border-width: 2px;
+  
+}
