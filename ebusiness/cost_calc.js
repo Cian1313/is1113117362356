@@ -41,12 +41,12 @@ function display(parm1) //parm1 equals value of argSubTotal
 
 function enablebtnProceed()
 {
-    $('#btnProceed').prop('disabled', false);//find btnProceed go into properties and enable btn
+    $('#btnProceed').prop('hidden', false);//find btnProceed go into properties and enable btn
 }
 
 function disablebtnProceed()
 {
-    $('#btnProceed').prop('disabled', true);
+    $('#btnProceed').prop('hidden', true);
 }
 
 // This function calculates the VAT and discount amounts

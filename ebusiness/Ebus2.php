@@ -18,26 +18,26 @@
             
             <lable for="name">Name</lable>
             <br/>
-            <input type="text" id="name" maxlength="30"/>
+            <input type="text" id="name" maxlength="30" required/>
             
             <br/>
             <br/>
             
             <lable for="email">Email</lable>
             <br/>
-            <input type="text" id="email">
+            <input type="text" id="email" required>
             
             <br/>
             <br/>
         
             <lable for="user_pin">PIN</lable>
            <br/>
-            <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4"/>
+            <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4" required/>
         
             <br/>
             <br/>
             
-            <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+            <button type="submit" id="btnPurchase" hidden>Proceed with Purchase</button>
         </form>
         
         <br/>

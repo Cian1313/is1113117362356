@@ -1,8 +1,3 @@
-body
-{
-    font-family: Helvetica;
-}
-
 .formpage
 {
     text-align: center;
@@ -22,9 +17,15 @@ body
     text-decoration: none;
 }
 
+.clear:hover
+{
+    font-weight: bold;
+    color: red;
+}
+
 .determine
 {
-    border-radius: 15px;
+  border-radius: 15px;
     background:lightblue;
     color: blue;
     border-color: blue;
@@ -35,9 +36,10 @@ body
     border-width:2px;
 }
 
-button hover 
+.determine:hover
 {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .cart
@@ -52,4 +54,10 @@ button hover
     border: solid;
     border-width: 2px;
   
+}
+
+.cart:hover
+{
+    font-weight: bold;
+    cursor:pointer;
 }
