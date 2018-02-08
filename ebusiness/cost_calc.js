@@ -10,17 +10,17 @@ function calcSub()
         argSubTotal = 100; //If salesforce is checked the variable = 100
     }//End if statement
     
-    if(document.getElementById('Amazon Web Services').checked)
+    else if (document.getElementById('Amazon Web Services').checked)
     {
         argSubTotal = 300;
     }//End if statement
     
-    if(document.getElementById('Cloud 9').checked)
+    else if(document.getElementById('Cloud 9').checked)
     {
         argSubTotal = 200;
     }//End if statement
     
-    if(document.GetElementById('Gmail').checked)
+    else 
     {
         argSubTotal = 400;
     }//End if statement
