@@ -12,37 +12,42 @@
     <body>
         
         <h1 class="header">Checkout</h1>
-        <h3>Please enter you payment details</h3>
         
-        <form action="EBus3.php" METHOD="POST">
+        <div class="formpage">
+            <h3>Please enter you payment details</h3>
             
-            <lable for="name">Name</lable>
-            <br/>
-            <input type="text" id="name" maxlength="30" required/>
+            <form action="EBus3.php" METHOD="POST">
+                
+                <!--text-box for custmer to enter their name with a lable-->
+                <lable for="name">Name:</lable>
+                <input type="text" id="name" maxlength="30" placeholder="Your name..."required autofocus/>
+                
+                <br/>
+                <br/>
+                
+                <!--text box for the customer to enter their name-->
+                <lable for="email">Email:</lable>
+                
+                <input type="text" id="email" placeholder="Your email..." required>
+                
+                <br/>
+                <br/>
+                
+                <!--text box for the customer to enter their name-->
+                <lable for="user_pin">PIN:</lable>
+             
+                <input type="password" id="user_pin" placeholder="Your Pin..." maxlength="4" required/>
+            
+                <br/>
+                <br/>
+                
+                <button type="submit" id="btnPurchase" class="cart" hidden>Proceed with Purchase</button>
+            </form>
             
             <br/>
-            <br/>
-            
-            <lable for="email">Email</lable>
-            <br/>
-            <input type="text" id="email" required>
-            
-            <br/>
-            <br/>
-        
-            <lable for="user_pin">PIN</lable>
-           <br/>
-            <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4" required/>
-        
-            <br/>
-            <br/>
-            
-            <button type="submit" id="btnPurchase" hidden>Proceed with Purchase</button>
-        </form>
-        
-        <br/>
-        <button onClick="validateDetails()">Validate</button>
-        
+            <!--when the button calls the function validateDetails()-->
+            <button onClick="validateDetails()" class="determine">Validate</button>
+        </div>
        <script type="text/javascript" src="ebus2_validator.js"></script>
     </body>
 </html>

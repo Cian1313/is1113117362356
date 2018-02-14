@@ -36,15 +36,15 @@ function display(parm1) //parm1 equals value of argSubTotal
     document.getElementById("subtotal").value = parm1;
     document.getElementById("total").value = parm1;
     
-    enablebtnProceed();
+    showbtnProceed();
 }
 
-function enablebtnProceed()
+function showbtnProceed()
 {
     $('#btnProceed').prop('hidden', false);//find btnProceed go into properties and enable btn
 }
 
-function disablebtnProceed()
+function hidebtnProceed()
 {
     $('#btnProceed').prop('hidden', true);
 }
@@ -52,16 +52,16 @@ function disablebtnProceed()
 // This function calculates the VAT and discount amounts
 function calcDisVatTotal(parmSubTotal)
 {
-    var argDiscount, subMinusDis, argVat, argTotal;
+    var argDiscountAmt, subMinusDis, argVatAmt, argTotalPrice;
     
-    argDiscount = parmSubTotal * 0.05
-    subMinusDis = parmSubTotal - argDiscount
-    argVat = subMinusDis * 0.1
-   argTotal = subMinusDis + argVat
+    argDiscountAmt = parmSubTotal * 0.05
+    subMinusDis = parmSubTotal - argDiscountAmt
+    argVatAmt = subMinusDis * 0.1
+   argTotalPrice = subMinusDis + argVatAmt
     
-    showDis(argDiscount)
-    showVat(argVat)
-    showTotal(argTotal)
+    showDis(argDiscountAmt)
+    showVat(argVatAmt)
+    showTotal(argTotalPrice)
     
 }
 

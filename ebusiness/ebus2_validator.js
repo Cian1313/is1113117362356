@@ -1,5 +1,6 @@
 /* global $ */
 
+// functuon to validate the customers details
 function validateDetails()
 {
     var pin, name, email;
@@ -32,23 +33,23 @@ function validateDetails()
     {
         alert("Please enter your email and pin");
     }
-    else if(String(pin).length == 4 && name == "" && email =="")
+    else if(String(pin).length == 4 && name == "" && email == "")
     {
         alert("Please enter your name and email");
-    }   
+    }  
     else
     {
         enablebtnPurchase();
     }
-}    
+}//End of function
    
 
 function enablebtnPurchase()
 {
     $('#btnPurchase').prop("hidden", false);
-}
+}//End of function
 
 function disablebtnProceed()
 {
     $('#btnPurchase').prop('hidden', true);
-}
+}//End of function
