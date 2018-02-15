@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+.reciptpage
+{
+    text-align: center;
+    font-size: large;
+}
 .clear
 {
     border-radius: 15px;
@@ -54,6 +59,20 @@
     border: solid;
     border-width: 2px;
   
+}
+
+.home
+{
+    border-radius: 15px;
+    background:lightgrey;
+    color: grey;
+    border-color: grey;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: solid;
+    border-width:2px;
+    text-decoration: none;
 }
 
 .cart:hover
