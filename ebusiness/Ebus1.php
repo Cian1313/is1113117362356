@@ -1,3 +1,8 @@
+<?php
+//Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -89,7 +94,7 @@
                 <!--Text-box for total amount-->
                 <lable for="total">
                     Total:
-                    <input type="text" id="total" value="0.00" readonly/>
+                    <input type="text" id="total" value="0.00" name="total" readonly/>
                 </lable>
                 
                 <br/>
@@ -109,5 +114,9 @@
             <!--Clears form-->
             <a role="button" href="Ebus1.php" class="clear">Clear Choice</a>
         </div>
+        <?php
+       //Set session variables
+       $_SESSION["total"] = $_POST["total"]
+       ?>
     </body>
 </html>    

@@ -1,3 +1,8 @@
+<?php
+//Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,7 +21,7 @@
         <div class="formpage">
             <h3>Please enter you payment details</h3>
             
-            <form action="EBus3.php" METHOD="POST">
+            <form action="Ebus3.php" METHOD="POST">
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <lable for="name">Name:</lable>
@@ -49,6 +54,12 @@
             <button onClick="validateDetails()" class="determine">Validate</button>
         </div>
        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <?php
+       //Set session variables
+       $_SESSION["total"] = $_POST["total"]
+       ?>
+       
+       
     </body>
 </html>
 
