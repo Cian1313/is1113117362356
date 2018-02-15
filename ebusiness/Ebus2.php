@@ -1,5 +1,4 @@
 <?php
-//Start the session
 session_start();
 ?>
 
@@ -25,7 +24,7 @@ session_start();
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <lable for="name">Name:</lable>
-                <input type="text" id="name" maxlength="30" placeholder="Your name..."required autofocus/>
+                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required autofocus/>
                 
                 <br/>
                 <br/>
@@ -33,7 +32,7 @@ session_start();
                 <!--text box for the customer to enter their name-->
                 <lable for="email">Email:</lable>
                 
-                <input type="text" id="email" placeholder="Your email..." required>
+                <input type="text" id="email" name="email" placeholder="Your email..." required>
                 
                 <br/>
                 <br/>
@@ -54,11 +53,11 @@ session_start();
             <button onClick="validateDetails()" class="determine">Validate</button>
         </div>
        <script type="text/javascript" src="ebus2_validator.js"></script>
-        <?php
+      <?php
        //Set session variables
-       $_SESSION["total"] = $_POST["total"]
-       ?>
        
+       $_SESSION["total"] = $_POST["total"];
+       ?>
        
     </body>
 </html>

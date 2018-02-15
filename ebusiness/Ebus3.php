@@ -9,10 +9,16 @@ session_start();
    </head>
    <body>
        <h4>Receipt</h4>
+       <?php
+       $_SESSION["name"] = $_POST["name"];
+       $_SESSION["email"] = $_POST["email"];
+       ?>
        
        <?php
-       //Echo session variables that were set on the pervious page
-       echo "Total is ".$_SESSOIN["total"].".";
+       //Echo session variables 
+       echo "Name: " . $_SESSION["name"] . "</br>";
+       echo "Email: " . $_SESSION["email"] . "</br>";
+       echo "Total: " . $_SESSION["total"];
        ?>
    </body>
 </html>

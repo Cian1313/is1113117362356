@@ -1,8 +1,3 @@
-<?php
-//Start the session
-session_start();
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -114,9 +109,6 @@ session_start();
             <!--Clears form-->
             <a role="button" href="Ebus1.php" class="clear">Clear Choice</a>
         </div>
-        <?php
-       //Set session variables
-       $_SESSION["total"] = $_POST["total"]
-       ?>
+       
     </body>
 </html>    
