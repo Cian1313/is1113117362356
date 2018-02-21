@@ -13,7 +13,7 @@ function validateDetails()
     {
         alert("Please enter your details");
     }
-    else if(String(pin).length < 4 && name != "" && email !="")
+    else if(String(pin) < 4 && name != "" && email !="")
     {
         alert("Please ensure your pin is entered correctly");
     }

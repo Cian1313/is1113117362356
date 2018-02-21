@@ -2,7 +2,12 @@ body
 {
     font-family: 'Open Sans', sans-serif;
 }
-            
+ 
+.banner       
+{
+    top:50%;
+    left:50%;
+}
 .mainheading
 {
     text-align: center;
@@ -42,7 +47,7 @@ a:hover
 
 .button 
 {
-    background-color: grey;
+    background-color: #8d989b;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -78,3 +83,9 @@ a:hover
     text-align: center;
 }
 
+.logo
+{
+    height:276;
+    width:180;
+}
+}

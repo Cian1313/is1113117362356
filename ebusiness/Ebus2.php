@@ -14,18 +14,17 @@ session_start();
     </head>
     
     <body>
-        
         <h1 class="header">Checkout</h1>
         
         <div class="formpage">
             <h3>Please enter you payment details</h3>
             
-            <form action="Ebus3.php" METHOD="POST">
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" METHOD="POST">
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <lable for="name">Name:</lable>
                 <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required autofocus/>
-                
+                <spn><?php echo $nameError ?></spn>
                 <br/>
                 <br/>
                 
@@ -45,7 +44,7 @@ session_start();
                 <br/>
                 <br/>
                 
-                <button type="submit" id="btnPurchase" class="cart" hidden>Proceed with Purchase</button>
+                <button type="submit" id="btnPurchase" class="cart" >Proceed with Purchase</button>
             </form>
             
             <br/>
@@ -53,6 +52,7 @@ session_start();
             <button onClick="validateDetails()" class="determine">Validate</button>
         </div>
        <script type="text/javascript" src="ebus2_validator.js"></script>
+       
       <?php
        //Set session variables
        
@@ -61,5 +61,3 @@ session_start();
        
     </body>
 </html>
-
-<!--Name + Email insert-->
