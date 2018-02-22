@@ -1,0 +1,39 @@
+ ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8d989b;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: #adadad;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active 
+{
+   color:white;
+}
+ body, html 
+{
+    height: 100%;
+    margin: 0;
+}
+
+.logobanner
+{
+    position:relative;
+    top:60px;
+    text-align:center;
+}
