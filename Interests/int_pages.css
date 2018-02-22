@@ -84,8 +84,19 @@ li
 {
 
    position: fixed;
-   top:50%;
    left:41.5%;
         
 }
 
+.imgblock
+{
+    text-align:center;
+}
+
+.imglink
+{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    text-align:center;
+}
