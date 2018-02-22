@@ -69,3 +69,23 @@ li
     opacity: 0.6;
     background-color: black;
 }
+
+.sector
+{
+    opacity: 0.6;
+    background-color: black;
+    text-align: center;
+    top:20px;
+    position:relative;
+    
+}
+
+.image
+{
+
+   position: fixed;
+   top:50%;
+   left:41.5%;
+        
+}
+

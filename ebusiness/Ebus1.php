@@ -91,18 +91,14 @@
                     Total:
                     <input type="text" id="total" value="0.00" name="total" readonly/>
                 </lable>
-                
                 <br/>
-                <br/>
-                <br/>
-                
                 <button type="submit" id="btnProceed" class="cart" hidden>Add to Shopping Cart</button>
                 
             </form>
             
             
             <br/>
-            <br/>
+            
             <!--When button is clicked calls calcSub() function to determine cost-->
             <button onClick="calcSub()" class="determine">Calculate Cost</button>
             

@@ -19,12 +19,12 @@ session_start();
         <div class="formpage">
             <h3>Please enter you payment details</h3>
             
-            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" METHOD="POST">
+            <form action="Ebus3.php" METHOD="POST">
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <lable for="name">Name:</lable>
                 <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required autofocus/>
-                <spn><?php echo $nameError ?></spn>
+                
                 <br/>
                 <br/>
                 
@@ -44,7 +44,7 @@ session_start();
                 <br/>
                 <br/>
                 
-                <button type="submit" id="btnPurchase" class="cart" >Proceed with Purchase</button>
+                <button type="submit" id="btnPurchase" class="cart" hidden>Proceed with Purchase</button>
             </form>
             
             <br/>

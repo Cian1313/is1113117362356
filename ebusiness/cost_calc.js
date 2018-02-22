@@ -29,11 +29,29 @@ function calcSub()
     calcDisVatTotal(argSubTotal)
 }
 
+// This function calculates the VAT and discount amounts
+function calcDisVatTotal(parmSubTotal)
+{
+    var argSubTotal, argDiscountAmt, subMinusDis, argVatAmt, argTotalPrice;
+    
+    argSubTotal=parmSubTotal
+    
+    argDiscountAmt = argSubTotal * 0.05
+    subMinusDis = argSubTotal - argDiscountAmt
+    argVatAmt = subMinusDis * 0.1
+   argTotalPrice = subMinusDis + argVatAmt
+    
+   display(argSubTotal, argDiscountAmt, argVatAmt, argTotalPrice)
+    
+}
 
 function display(parm1, parm2, parm3, parm4) //parm1 equals value of argSubTotal
 {
     
     document.getElementById("subtotal").value = parm1;
+    document.getElementById("discount").value = parm2;
+    document.getElementById("vat").value = parm3;
+    document.getElementById("total").value = parm4;
    
     
     showbtnProceed();
@@ -49,21 +67,7 @@ function hidebtnProceed()
     $('#btnProceed').prop('hidden', true);
 }
 
-// This function calculates the VAT and discount amounts
-function calcDisVatTotal(parmSubTotal)
-{
-    var argSubTotal, argDiscountAmt, subMinusDis, argVatAmt, argTotalPrice;
-    
-    argSubTotal=parmSubTotal
-    
-    argDiscountAmt = parmSubTotal * 0.05
-    subMinusDis = parmSubTotal - argDiscountAmt
-    argVatAmt = subMinusDis * 0.1
-   argTotalPrice = subMinusDis + argVatAmt
-    
-   display(argSubTotal, argDiscountAmt, argVatAmt, argTotalPrice)
-    
-}
+
 
 // function showDis(parm3)
 // {
