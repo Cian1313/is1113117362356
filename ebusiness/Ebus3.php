@@ -11,7 +11,7 @@ session_start();
    </head>
    <body>
        
-       <h1 class="header"> Payment Complete</h1>
+       <h1 class="header2"> Payment Complete</h1>
        <div class="reciptpage">
        <h3>Purchase Receipt</h3>
        <?php

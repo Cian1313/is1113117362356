@@ -13,7 +13,7 @@
     
     <body>
         
-        <h1 class="header">Products</h1>
+        <h1 class="header2">Products</h1>
         
         <div class="formpage">
             <h3>Select a Product</h3>

@@ -14,7 +14,7 @@ session_start();
     </head>
     
     <body>
-        <h1 class="header">Checkout</h1>
+        <h1 class="header2">Checkout</h1>
         
         <div class="formpage">
             <h3>Please enter you payment details</h3>

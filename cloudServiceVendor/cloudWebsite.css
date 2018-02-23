@@ -41,9 +41,7 @@ li a
 
 p
 {
-    font-style: italic;
-    font-size: 25px;
-    color:grey;
+    
 }
 
 a:hover 
@@ -71,7 +69,10 @@ a
     
 }
 
-.hover
+.content2
 {
-    
+    text-align: center;
+    position:relative;
+    left:0%;
+    width:75%;
 }

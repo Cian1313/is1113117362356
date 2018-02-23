@@ -39,12 +39,28 @@ body
     float: right;
 }
 
+body, html 
+{
+    height: 100%;
+    margin: 0;
+}
+            
 .header
 {
     color:white;
     padding-top:1em;
     padding-bottom:1em;
     background-color: #47bf7b;
+    text-align:center;
+    margin: 0;
+} 
+
+.header2
+{
+    color:white;
+    padding-top:1em;
+    padding-bottom:1em;
+    background-color: #800000;
     text-align:center;
     margin: 0;
 } 
