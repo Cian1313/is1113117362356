@@ -48,7 +48,7 @@ p
 
 a:hover 
 {
-    color:grey;
+    color:#800000;
     font-weight:bold;
 }
 
@@ -57,3 +57,21 @@ a
     color:#800000;
 }
 
+.footer2
+{
+    
+    position: absolute;
+    background-color:#8d989b;
+    color:white;
+    text-align:center;
+    padding-top:1em;
+    padding-bottom:1em;
+    width: 100%;
+    bottom:0;
+    
+}
+
+.hover
+{
+    
+}
