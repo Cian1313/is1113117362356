@@ -75,6 +75,12 @@
     text-decoration: none;
 }
 
+ body, html 
+{
+    height: 100%;
+    margin: 0;
+}
+
 .cart:hover
 {
     font-weight: bold;
