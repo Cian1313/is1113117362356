@@ -25,7 +25,7 @@ function calcSub()
         argSubTotal = 400;
     }//End if statement
     
-  //Passing variable in the display function
+  //Passing variable in the calaDisVatTotal function
     calcDisVatTotal(argSubTotal)
 }
 
@@ -45,7 +45,8 @@ function calcDisVatTotal(parmSubTotal)
     
 }
 
-function display(parm1, parm2, parm3, parm4) //parm1 equals value of argSubTotal
+// Displays argument from call in the textboxs
+function display(parm1, parm2, parm3, parm4) 
 {
     
     document.getElementById("subtotal").value = parm1;
@@ -67,19 +68,3 @@ function hidebtnProceed()
     $('#btnProceed').prop('hidden', true);
 }
 
-
-
-// function showDis(parm3)
-// {
-//     document.getElementById("discount").value = parm3
-// }
-
-// function showVat(parm4)
-// {
-//     document.getElementById("vat").value = parm4
-// }
-
-// function showTotal(parm5)
-// {
-//     document.getElementById("total").value= parm5
-// }

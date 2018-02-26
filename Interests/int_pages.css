@@ -31,6 +31,50 @@
     background-size: cover;
 }
 
+#section5
+{
+    background-image: url("http://getwallpapers.com/wallpaper/full/4/c/c/461870.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section4
+{
+    background-image: url("https://support2.scdn.co/static/img/open-graph-default.png");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section6
+{
+   background-image: url("https://data.whicdn.com/images/62796295/original.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section7
+{
+   background-image: url("https://i1.wp.com/www.truesdalepainting.com/wp-content/uploads/2015/01/backgrounds-grayscale-grunge-minimalistic-2781540-1920x1200.png?ssl=1");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .section
 {
     

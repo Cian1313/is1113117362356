@@ -6,6 +6,7 @@ session_start();
 <html>
    <head>
        <title>Receipt</title>
+       <!--Linking to external css files-->
        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
        <link rel="stylesheet" href="business.css" type="text/css"/>
    </head>
@@ -21,9 +22,9 @@ session_start();
        
        <?php
        //Echo session variables 
-       echo "Name: " . $_SESSION["name"] . "</br>";
-       echo "Email: " . $_SESSION["email"] . "</br>";
-       echo "Total: " . $_SESSION["total"];
+       echo "Name: " ." ".$_SESSION["name"] . "</br>";
+       echo "Email: " ." ".$_SESSION["email"] . "</br>";
+       echo "Total: " ." ".$_SESSION["total"];
        ?>
       <div> 
       </br>

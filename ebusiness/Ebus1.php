@@ -5,19 +5,19 @@
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!--Linking to an external javascript file which contain the functions which calculates the total-->
         <script type="text/javascript" src="cost_calc.js"></script>
+        <!--Linking to external css files-->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <link rel="stylesheet" href="business.css" type="text/css"/>
-        
     </head>
     
     <body>
-        
         <h1 class="header2">Products</h1>
         
         <div class="formpage">
             <h3>Select a Product</h3>
-            
+
             <br/>
             
             <form method="POST" action="Ebus2.php">
@@ -105,6 +105,5 @@
             <!--Clears form-->
             <a role="button" href="Ebus1.php" class="clear">Clear Choice</a>
         </div>
-       
     </body>
 </html>    
