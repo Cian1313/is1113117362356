@@ -20,29 +20,63 @@ function validateDetails()
             {
             document.getElementById("nameerror").innerHTML = "Name is required";
             }
+            else
+            {
+             document.getElementById("nameerror").innerHTML = "";  
+            }
+            
             if(email == "")
             {
             document.getElementById("emailerror").innerHTML = "Email is required";
             }
+            else
+            {
+             document.getElementById("emailerror").innerHTML = "";  
+            }
+            
             if(addressline1 == "")
             {
             document.getElementById("adderror").innerHTML = "Address line 1 is required";
             }
+            else
+            {
+             document.getElementById("adderror").innerHTML = "";  
+            }
+            
             if(town == "")
             {
             document.getElementById("townerror").innerHTML = "Town is required";
             }
+            else
+            {
+             document.getElementById("townerror").innerHTML = "";  
+            }
+            
             if(county == "")
             {
             document.getElementById("coerror").innerHTML = "County is required";
             }
+            else
+            {
+             document.getElementById("coerror").innerHTML = "";  
+            }
+            
             if(card == "")
             {
             document.getElementById("carderror").innerHTML = "Card is required";
             }
+            else
+            {
+             document.getElementById("carderror").innerHTML = "";  
+            }
+            
             if(pin == "")
             {
             document.getElementById("pinerror").innerHTML = "Pin is required";
+            }
+            else
+            {
+             document.getElementById("pinerror").innerHTML = "";  
             }
     }    
     else

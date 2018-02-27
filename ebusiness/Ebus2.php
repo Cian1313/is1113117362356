@@ -24,14 +24,14 @@ session_start();
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <label for="name">Name:</label><br/>
-                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/><p id="nameerror" style="color:red"></p>
+                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/><p id="nameerror" style="color:red display:inline-block"></p>
                 
                 <br/>
                 <br/>
                 
                 <!--text box for the customer to enter their name-->
                 <label for="email">Email:</label><br/>
-                <input type="text" id="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Your email..." required/><p id="emailerror" style="color:red"></p>
+                <input type="text" id="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Your email..." required/><p id="emailerror" style="color:red "></p>
                 
                 <br/>
                 <br/>
