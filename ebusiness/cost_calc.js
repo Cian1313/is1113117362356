@@ -27,7 +27,7 @@ function calcSub()
     
   //Passing variable in the calaDisVatTotal function
     calcDisVatTotal(argSubTotal)
-}
+}//End of function
 
 // This function calculates the VAT and discount amounts
 function calcDisVatTotal(parmSubTotal)
@@ -43,7 +43,7 @@ function calcDisVatTotal(parmSubTotal)
     
    display(argSubTotal, argDiscountAmt, argVatAmt, argTotalPrice)
     
-}
+}//End of function
 
 // Displays argument from call in the textboxs
 function display(parm1, parm2, parm3, parm4) 
@@ -61,10 +61,10 @@ function display(parm1, parm2, parm3, parm4)
 function showbtnProceed()
 {
     $('#btnProceed').prop('hidden', false);//find btnProceed go into properties and enable btn
-}
+}//End of function
 
 function hidebtnProceed()
 {
     $('#btnProceed').prop('hidden', true);
-}
+}//End of function
 

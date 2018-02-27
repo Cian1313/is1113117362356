@@ -22,42 +22,42 @@
             
             <form method="POST" action="Ebus2.php">
                 
-                <!--Radio buttons for differnt product-->
-                <lable for="salesforce">
+                <!--Radio buttons for differnt products-->
+                <label for="salesforce">
                     <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                     Salesforce @ $100
-                </lable>
+                </label>
                 
                 <br/>
                 <br/>
                 
-                <lable for="Amazon Web Services">
+                <label for="Amazon Web Services">
                     <input type="radio" id="Amazon Web Services" name="product" onClick="disablebtnProceed()"/>
                     AWS @ $300
-                </lable>
+                </label>
                 
                 <br/>
                 <br/>
                 
-                <lable for="Cloud 9">
+                <label for="Cloud 9">
                     <input type="radio" id="Cloud 9" name="product" onClick="disablebtnProceed()"/>
                     Cloud9 @ $200
-                </lable>
+                </label>
                 
                 <br/>
                 <br/>
                 
-                <lable for="Gmail">
+                <label for="Gmail">
                     <input type="radio" id="Gmail" name="product" onClick="disablebtnProceed()"/>
                     Gmail @ $400
-                </lable>
+                </label>
                 
                 <br/>
                 <br/>
                 <br/>
                 
                 <!--Text box for subtotal with lable-->
-                <lable for="subtotal">
+                <label for="subtotal">
                     Sub Total:
                     <input type="text"  id="subtotal" value="0.00" readonly/>
                 </lable>
@@ -67,30 +67,30 @@
                 <br/>
                 
                 <!--Text box for discount amount with lable-->
-                <lable for="discount">
+                <label for="discount">
                     Discount @ 5%:
                     <input type="text"  id="discount" value="0.00" readonly/>
-                </lable>
+                </label>
                 
                 <br/>
                 <br/>
                 <br/>
                 
-                <!--Text-box for vat amount with lable-->
-                <lable for="vat">
+                <!--Text-box for vat amount with label-->
+                <label for="vat">
                     VAT @ 10%:
                     <input type="text"  id="vat" value="0.00" readonly/>
-                </lable>
+                </label>
                 
                 <br/>
                 <br/>
                 <br/>
                 
                 <!--Text-box for total amount-->
-                <lable for="total">
+                <label for="total">
                     Total:
                     <input type="text" id="total" value="0.00" name="total" readonly/>
-                </lable>
+                </label>
                 <br/>
                 <button type="submit" id="btnProceed" class="cart" hidden>Add to Shopping Cart</button>
                 
