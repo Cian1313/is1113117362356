@@ -3,17 +3,16 @@
 // functuon to validate the customers details
 function validateDetails()
 {
-    var name, email, addressline1, town, county, card, pin;
+    var name, email, addressline1, town, card, pin;
     
     name = document.getElementById("name").value;
     email = document.getElementById("email").value;
     addressline1 = document.getElementById("addressline1").value;
     town = document.getElementById("town").value;
-    county = document.getElementById("county");
     card = document.getElementById("card");
     pin = document.getElementById("user_pin").value;
     
-    if(name == "" || email == "" || addressline1 == "" || town == "" || county == "" || card == "" || pin == "")
+    if(name == "" || email == "" || addressline1 == "" || town == "" || card == "" || pin == "")
     {
         window.alert("Please ensure all required field are filled(*)");
             if(name == "")
@@ -50,15 +49,6 @@ function validateDetails()
             else
             {
              document.getElementById("townerror").innerHTML = "";  
-            }
-            
-            if(county == "")
-            {
-            document.getElementById("coountyerror").innerHTML = "County is required";
-            }
-            else
-            {
-             document.getElementById("countyerror").innerHTML = "";  
             }
             
             if(card == "")

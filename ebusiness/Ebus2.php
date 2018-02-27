@@ -24,7 +24,7 @@ session_start();
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <label for="name">Name: *</label><br/>
-                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/><span><p id="nameerror" style="color:red"></p></span>
+                <span></span><input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/><p id="nameerror" style="color:red"></p></span>
                 
                 <br/>
                 <br/>
@@ -40,7 +40,7 @@ session_start();
                 <input type="text" id="addressline1" name="addressline1" placeholder="Address line 1" required/><p id="adderror" style="color:red"></p><br/>
                 <input type="text" id="addressline2" name="addressline2" placeholder="Address line 2"/><br/>
                 <input type="text" id="town" name="town" placeholder="Town/City" required/><p id="townerror" style="color:red"></p><br/>
-                <input type="text" id="county" name="county" placeholder="County" required/><p id="countyerror" style="color:red"></p>
+                <input type="text" id="county" name="county" placeholder="County" required/>
                 
                 <br/>
                 <br/>
