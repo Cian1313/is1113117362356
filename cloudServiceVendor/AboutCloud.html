@@ -13,25 +13,38 @@
     
     <body>
         <!--Nav-bar-->
-        <ul>
+        <ul class="mainnav">
             <!--Nav-bar items-->
-            <li><a href="../homepage.html">Home</a></li>
-            <li><a href="../CV/cv_page1.html">Cirriculum Vitae</a></li>
-            <li><a href="../Interests/Sports.html">Interests</a></li>
-            <li><a href="cloudhomepage.html" class="active">Quantum Cloud Services</a></li>
-            <li><a href="../ebusiness/Ebus1.php">EBusiness</a></li>
+            <li class="navalign"><a href="../homepage.html" class="mainnavitems">Home</a></li>
+            <li class="navalign"><a href="../CV/cv_page1.html"class="mainnavitems">Cirriculum Vitae</a></li>
+            <li class="navalign"><a href="../Interests/Sports.html" class="mainnavitems">Interests</a></li>
+            <li class="navalign"><a href="cloudhomepage.html" class="active mainnavitems">Quantum Cloud Services</a></li>
+            <li class="navalign"><a href="../ebusiness/Ebus1.php" class="mainnavitems">EBusiness</a></li>
         </ul>
         
+        <!--Side Bar-->
+        <ul class="sidenav">
+            <br/>
+            <li ><a class="active sidenavlinks" href="#home">Software as a Service</a></li>
+            <br/>
+            <li><a class="sidenavlinks" href="#news">Platform as a Service</a></li>
+            <br/>
+            <li><a class="sidenavlinks" href="#contact">Infrastructure as a Service</a></li>
+            <br/>
+            <li><a class="sidenavlinks" href="#about">Commmunication as a Service</a></li>
+        </ul>
+        <div class="">
         <!--Page header-->
         <h1 class="header2">About Cloud</h1>
         
         <!--Page content-->
         <div class="content">
+           
             <h3>Software as a Service (SaaS)</h3>
             <a href="https://www.salesforce.com/eu/learning-centre/tech/saas/">
                 <img src="https://static.brandfolder.com/salesforce/logo/salesforce-primary-logo.png" alt="Salesforce logo" height="125" width="225" />
             </a>
-            
+             <div class="display">
             <p>Software as a Service is a method of providing applications over the internet. This 
             means that a user can easily access the software online without installing it on 
             PC. There are several advantages associated with SaaS for business;
@@ -50,6 +63,7 @@
             revenue comes from its customer relationship management product. However they also provide other
             application such as Heroku, which is a Platform as a Service (PaaS)
             </p>
+            </div>
         </div>
             
             <br/>
@@ -60,7 +74,7 @@
             <a href="https://aws.amazon.com/cloud9/">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Cloud9_logo.svg/1200px-Cloud9_logo.svg.png" alt="C9 Logo" height="125" width="225"/>
             </a>
-            
+            <div class="display">
             <p>
             Platform as a Service is a method of providing cloud computing applications over the internet. This
             means that a user can develop and run applications without downloading software and files. 
@@ -74,6 +88,7 @@
             The ability to code with others in real time making working in teams more efficient.<br/>
             The ability to start new project quickly in a wide a variety of programming languages.<br/>
             <p/>
+            </div>
         </div>
         
         <br/>
@@ -84,7 +99,7 @@
             <a href="https://aws.amazon.com/">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png" alt="AWS Logo" height="125" width="225"/>
             </a>
-            
+            <div class="display">
             <p>Infrastructure as a Service provides virtualised hardware i.e. computing infrastructure. Similar to 
             SaaS and PaaS, IaaS can be used by business to cost efficient and easily scalable IT infrastructures, 
             while outsourcing the procurement and maintenance of any hardware to the service provider.
@@ -94,6 +109,7 @@
             such as storage, database, analytics and deployment services in the aim to aid firms in lowering IT 
             costs, be more efficient and the ability to scale applications as the business grows.
             </p>
+            </div>
         </div>
         
         <br/>
@@ -104,6 +120,7 @@
             <a href="https://www.google.com/gmail/">
                 <img src="https://pre00.deviantart.net/9e46/th/pre/i/2017/163/5/9/gmail__product_sans_logo_concept__by_cosmcala-da3xgqq.png" alt="Gmail Logo" height="125" width="225"/>
             </a>
+            <div class="display">
             <p>Communication as a Service delivers SaaS for communications. CaaS providers include Skype (video 
             conferencing) and perhaps most importantly Gmail (email).  
             <br/>   
@@ -111,8 +128,9 @@
             The use of CaaS (implemented through Gmail for example) in industry can lead to more effective and 
             efficient communication between employees as they can share information instantly and easily. 
             </p>
+            </div>
         </div>
-        
+        </div>
         <!--Linking ebusiness page-->
         <a href="../ebusiness/Ebus1.php" class="btnNext" >Purchase Products</a>
     </body>

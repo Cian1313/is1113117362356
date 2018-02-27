@@ -69,4 +69,12 @@ a
     
 }
 
-
+.display
+{
+    text-align:center;
+    width:75%;
+    position: relative;
+    margin: 0;
+    left: 12.5%;
+    
+}
