@@ -54,11 +54,11 @@ function validateDetails()
             
             if(county == "")
             {
-            document.getElementById("coerror").innerHTML = "County is required";
+            document.getElementById("coountyerror").innerHTML = "County is required";
             }
             else
             {
-             document.getElementById("coerror").innerHTML = "";  
+             document.getElementById("countyerror").innerHTML = "";  
             }
             
             if(card == "")
