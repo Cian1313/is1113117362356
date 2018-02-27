@@ -16,9 +16,9 @@ function validateDetails()
     if(name == "" || email == "" || addressline1 == "" || town == "" || county == "" || card == "" || pin == "")
     {
         window.alert("Please ensure all required field are filled(*)");
-            if(name == "")
+            if(name == "" || email == "" || addressline1 == "" || town == "" || county == "" || card == "" || pin == "")
             {
-                document.getElementById("error").innerHTML = "Name is required"
+            document.getElementById("error").innerHTML = "Name is required";
             }
     }    
     else
