@@ -12,14 +12,13 @@ function validateDetails()
     county = document.getElementById("county");
     card = document.getElementById("card");
     pin = document.getElementById("user_pin").value;
-    error == rgb(255, 0, 0)
     
     if(name == "" || email == "" || addressline1 == "" || town == "" || county == "" || card == "" || pin == "")
     {
         window.alert("Please ensure all required field are filled(*)");
             if(name == "")
             {
-                document.getElementById("name").value == error
+                document.getElementById("error").value = "Name is required"
             }
     }    
     else

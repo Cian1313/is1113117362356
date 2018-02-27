@@ -24,7 +24,7 @@ session_start();
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <label for="name">Name:</label><br/>
-                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/>
+                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/><p id="error"></p>
                 
                 <br/>
                 <br/>
