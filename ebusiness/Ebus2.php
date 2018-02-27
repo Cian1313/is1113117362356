@@ -24,23 +24,23 @@ session_start();
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <label for="name">Name:</label><br/>
-                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/><p id="error"></p>
+                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/><p id="error" style="color:red"></p>
                 
                 <br/>
                 <br/>
                 
                 <!--text box for the customer to enter their name-->
                 <label for="email">Email:</label><br/>
-                <input type="text" id="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Your email..." required/>
+                <input type="text" id="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Your email..." required/><p id="error" style="color:red"></p>
                 
                 <br/>
                 <br/>
                 
                 <label for="address">Address:</label><br/>
-                <input type="text" id="addressline1" name="addressline1" placeholder="Address line 1" required/><br/>
+                <input type="text" id="addressline1" name="addressline1" placeholder="Address line 1" required/><p id="error" style="color:red"></p><br/>
                 <input type="text" id="addressline2" name="addressline2" placeholder="Address line 2"/><br/>
-                <input type="text" id="town" name="town" placeholder="Town/City" required/><br/>
-                <input type="text" id="county" name="county" placeholder="County" required/>
+                <input type="text" id="town" name="town" placeholder="Town/City" required/><p id="error" style="color:red"></p><br/>
+                <input type="text" id="county" name="county" placeholder="County" required/><p id="error" style="color:red"></p>
                 
                 <br/>
                 <br/>
@@ -49,6 +49,7 @@ session_start();
                 <label for"card">Select Payment Option</label><br/><br/>
                 <input type="checkbox" name="card" value="visa"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Visa_2014_logo_detail.svg/2000px-Visa_2014_logo_detail.svg.png" height="15px"/>
                 <input type="checkbox" name="card" value="mastercard"><img src="http://www.freelogovectors.net/wp-content/uploads/2016/12/mastercard-logo1.png" height="20px"/>
+                <p id="error" style="color:red"></p>
                 
                 <br/>
                 <br/>
@@ -56,7 +57,8 @@ session_start();
                 <!--text box for the customer to enter their name-->
                 <label for="user_pin">PIN:</label><br/>
                 <input type="password" name="pin" id="user_pin" placeholder="Your Pin..." pattern="[0-9]{4}" maxlength="4" required/>
-            
+                <p id="error" style="color:red"></p>
+                
                 <br/>
                 <br/>
                 
