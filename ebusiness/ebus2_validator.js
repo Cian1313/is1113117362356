@@ -3,7 +3,7 @@
 // functuon to validate the customers details
 function validateDetails()
 {
-    var name, email, addressline1, town, county, card, pin, error;
+    var name, email, addressline1, town, county, card, pin;
     
     name = document.getElementById("name").value;
     email = document.getElementById("email").value;
@@ -18,7 +18,7 @@ function validateDetails()
         window.alert("Please ensure all required field are filled(*)");
             if(name == "")
             {
-                document.getElementById("error").value = "Name is required"
+                document.getElementById("error").innerHTML = "Name is required"
             }
     }    
     else
