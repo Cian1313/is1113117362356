@@ -89,7 +89,7 @@
 
 input[type=text]
 {
-    width: 10%;
+    width: 20%;
     padding: 8px 15px;
     margin: 8px 0;
     display: inline-block;
@@ -100,7 +100,7 @@ input[type=text]
 
 input[type=password]
 {
-    width: 10%;
+    width: 20%;
     padding: 8px 15px;
     margin: 8px 0;
     display: inline-block;

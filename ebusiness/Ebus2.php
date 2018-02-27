@@ -18,28 +18,44 @@ session_start();
         
         <div class="formpage">
             <h3>Please enter you payment details</h3>
+            <h4>Personal Details</h4>
             
             <form action="Ebus3.php" METHOD="POST">
                 
                 <!--text-box for custmer to enter their name with a lable-->
-                <lable for="name">Name:</lable>
-                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required autofocus/>
+                <label for="name">Name:</label><br/>
+                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/>
                 
                 <br/>
                 <br/>
                 
                 <!--text box for the customer to enter their name-->
-                <lable for="email">Email:</lable>
+                <label for="email">Email:</label><br/>
+                <input type="text" id="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Your email..." required/>
                 
-                <input type="text" id="email" name="email" placeholder="Your email..." required>
+                <br/>
+                <br/>
+                
+                <label for="address">Address:</label><br/>
+                <input type="text" id="addressline1" name="addressline1" placeholder="Address line 1"/><br/>
+                <input type="text" id="addressline2" name="addressline2" placeholder="Address line 2"/><br/>
+                <input type="text" id="town" name="town" placeholder="Town/City"/><br/>
+                <input type="text" id="county" name="county" placeholder="County"/>
+                
+                <br/>
+                <br/>
+                
+                <h4>Payment Details</h4>
+                <label for"card">Select Payment Option</label><br/><br/>
+                <input type="checkbox" name="card" value="visa"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Visa_2014_logo_detail.svg/2000px-Visa_2014_logo_detail.svg.png" height="15px"/>
+                <input type="checkbox" name="card" value="mastercard"><img src="http://www.freelogovectors.net/wp-content/uploads/2016/12/mastercard-logo1.png" height="20px"/>
                 
                 <br/>
                 <br/>
                 
                 <!--text box for the customer to enter their name-->
-                <lable for="user_pin">PIN:</lable>
-             
-                <input type="password" id="user_pin" placeholder="Your Pin..." maxlength="4" required/>
+                <label for="user_pin">PIN:</label><br/>
+                <input type="password" name="pin" id="user_pin" placeholder="Your Pin..." pattern="[0-9]{4}" maxlength="4" required/>
             
                 <br/>
                 <br/>
@@ -55,7 +71,6 @@ session_start();
        
       <?php
        //Set session variables
-       
        $_SESSION["total"] = $_POST["total"];
        ?>
        
