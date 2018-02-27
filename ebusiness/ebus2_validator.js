@@ -16,9 +16,33 @@ function validateDetails()
     if(name == "" || email == "" || addressline1 == "" || town == "" || county == "" || card == "" || pin == "")
     {
         window.alert("Please ensure all required field are filled(*)");
-            if(name == "" || email == "" || addressline1 == "" || town == "" || county == "" || card == "" || pin == "")
+            if(name == "")
             {
-            document.getElementById("error").innerHTML = "Name is required";
+            document.getElementById("nameerror").innerHTML = "Name is required";
+            }
+            if(email == "")
+            {
+            document.getElementById("emailerror").innerHTML = "Email is required";
+            }
+            if(addressline1 == "")
+            {
+            document.getElementById("adderror").innerHTML = "Address line 1 is required";
+            }
+            if(town == "")
+            {
+            document.getElementById("townerror").innerHTML = "Town is required";
+            }
+            if(county == "")
+            {
+            document.getElementById("coerror").innerHTML = "County is required";
+            }
+            if(card == "")
+            {
+            document.getElementById("carderror").innerHTML = "Card is required";
+            }
+            if(pin == "")
+            {
+            document.getElementById("pinerror").innerHTML = "Pin is required";
             }
     }    
     else
