@@ -20,7 +20,7 @@ session_start();
             <h3>Please enter you payment details</h3>
             <h4>Personal Details</h4>
             
-            <form action="Ebus3.php" METHOD="POST">
+            <form name="productform" action="Ebus3.php" METHOD="POST">
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <label for="name">Name:</label><br/>
@@ -37,10 +37,10 @@ session_start();
                 <br/>
                 
                 <label for="address">Address:</label><br/>
-                <input type="text" id="addressline1" name="addressline1" placeholder="Address line 1"/><br/>
+                <input type="text" id="addressline1" name="addressline1" placeholder="Address line 1" required/><br/>
                 <input type="text" id="addressline2" name="addressline2" placeholder="Address line 2"/><br/>
-                <input type="text" id="town" name="town" placeholder="Town/City"/><br/>
-                <input type="text" id="county" name="county" placeholder="County"/>
+                <input type="text" id="town" name="town" placeholder="Town/City" required/><br/>
+                <input type="text" id="county" name="county" placeholder="County" required/>
                 
                 <br/>
                 <br/>

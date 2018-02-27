@@ -13,10 +13,13 @@ function validateDetails()
     card = document.getElementById("card");
     pin = document.getElementById("user_pin").value;
     
-    if(name == "" || email == "" || addressline1 == "" || town == "" || county == "" || pin == "")
+    if(name == "" || email == "" || addressline1 == "" || town == "" || county == "" || card == "" || pin == "")
     {
         window.alert("Please ensure all required field are filled(*)");
-            
+            if(name == "")
+            {
+                document.getElementById("name").value = "Name is required"
+            }
     }    
     else
     {
