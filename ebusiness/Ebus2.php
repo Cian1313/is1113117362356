@@ -36,6 +36,7 @@ session_start();
                 <br/>
                 <br/>
                 
+                <!--text boxs for customer to enter address-->
                 <label for="address">Address: *</label><br/>
                 <input type="text" id="addressline1" name="addressline1" placeholder="Address line 1" required/><p id="adderror" style="color:red"></p><br/>
                 <input type="text" id="addressline2" name="addressline2" placeholder="Address line 2"/><br/>
@@ -46,6 +47,7 @@ session_start();
                 <br/>
                 
                 <h4>Payment Details</h4>
+                <!--checkboxs for user to select which option they want to pay with-->
                 <label for"card">Select Payment Option: *</label><br/><br/>
                 <input type="checkbox" name="card" value="visa"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Visa_2014_logo_detail.svg/2000px-Visa_2014_logo_detail.svg.png" height="15px"/>
                 <input type="checkbox" name="card" value="mastercard"><img src="http://www.freelogovectors.net/wp-content/uploads/2016/12/mastercard-logo1.png" height="20px"/>

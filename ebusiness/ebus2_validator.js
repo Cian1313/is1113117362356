@@ -3,8 +3,10 @@
 // functuon to validate the customers details
 function validateDetails()
 {
+    // declare our variables
     var name, email, addressline1, town, card, pin;
     
+    //assign values to our variables
     name = document.getElementById("name").value;
     email = document.getElementById("email").value;
     addressline1 = document.getElementById("addressline1").value;
@@ -12,9 +14,13 @@ function validateDetails()
     card = document.getElementById("card");
     pin = document.getElementById("user_pin").value;
     
+    //if statement to see if required fields are filled
     if(name == "" || email == "" || addressline1 == "" || town == "" || card == "" || pin == "")
     {
+        //if any field not filled message box shows
         window.alert("Please ensure all required field are filled(*)");
+            //Nested if statements to indacte to the user which fields are required if intially left blank
+            //Code similar to this sourced from - https://stackoverflow.com/questions/15591829/user-text-input-with-an-if-statement?rq=1
             if(name == "")
             {
             document.getElementById("nameerror").innerHTML = "Name is required";
@@ -22,7 +28,7 @@ function validateDetails()
             else
             {
              document.getElementById("nameerror").innerHTML = "";  
-            }
+            }//End of if statement
             
             if(email == "")
             {
@@ -31,7 +37,7 @@ function validateDetails()
             else
             {
              document.getElementById("emailerror").innerHTML = "";  
-            }
+            }//End of if statement
             
             if(addressline1 == "")
             {
@@ -40,7 +46,7 @@ function validateDetails()
             else
             {
              document.getElementById("adderror").innerHTML = "";  
-            }
+            }//End of if statement
             
             if(town == "")
             {
@@ -49,7 +55,7 @@ function validateDetails()
             else
             {
              document.getElementById("townerror").innerHTML = "";  
-            }
+            }//End of if statement
             
             if(card == "")
             {
@@ -58,7 +64,7 @@ function validateDetails()
             else
             {
              document.getElementById("carderror").innerHTML = "";  
-            }
+            }//End of if statement
             
             if(pin == "")
             {
@@ -67,12 +73,13 @@ function validateDetails()
             else
             {
              document.getElementById("pinerror").innerHTML = "";  
-            }
+            }//End of if statement
     }    
     else
     {
+        //if all required field filled btnPurchase is shown
         enablebtnPurchase();
-    }
+    }//End of if statement
     
 }//End of function
    

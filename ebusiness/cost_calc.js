@@ -56,7 +56,7 @@ function display(parm1, parm2, parm3, parm4)
    
     
     showbtnProceed();
-}
+}//End of function
 
 function showbtnProceed()
 {
