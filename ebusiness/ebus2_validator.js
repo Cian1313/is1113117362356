@@ -4,18 +4,17 @@
 function validateDetails()
 {
     // declare our variables
-    var name, email, addressline1, town, card, pin;
+    var name, email, addressline1, town, pin;
     
     //assign values to our variables
     name = document.getElementById("name").value;
     email = document.getElementById("email").value;
     addressline1 = document.getElementById("addressline1").value;
     town = document.getElementById("town").value;
-    card = document.getElementById("card");
     pin = document.getElementById("user_pin").value;
     
     //if statement to see if required fields are filled
-    if(name == "" || email == "" || addressline1 == "" || town == "" || card == "" || pin == "")
+    if(name == "" || email == "" || addressline1 == "" || town == "" || pin == "")
     {
         //if any field not filled message box shows
         window.alert("Please ensure all required field are filled(*)");
@@ -27,7 +26,8 @@ function validateDetails()
             }
             else
             {
-             document.getElementById("nameerror").innerHTML = "";  
+             document.getElementById("nameerror").innerHTML = "";
+             $('#nameerror').prop('hidden', false);
             }//End of if statement
             
             if(email == "")
@@ -55,15 +55,6 @@ function validateDetails()
             else
             {
              document.getElementById("townerror").innerHTML = "";  
-            }//End of if statement
-            
-            if(card == "")
-            {
-            document.getElementById("carderror").innerHTML = "Card is required";
-            }
-            else
-            {
-             document.getElementById("carderror").innerHTML = "";  
             }//End of if statement
             
             if(pin == "")
