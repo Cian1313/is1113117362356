@@ -39,7 +39,7 @@ session_start();
                 <!--text boxs for customer to enter address-->
                 <label for="address">Address: *</label><br/>
                 <input type="text" id="addressline1" name="addressline1" placeholder="Address line 1" required/><p id="adderror" style="color:red"></p><br/>
-                <input type="text" id="addressline2" name="addressline2" placeholder="Address line 2"/><br/>
+                <input type="text" id="addressline2" name="addressline2" placeholder="Address line 2"/><br/><br/>
                 <input type="text" id="town" name="town" placeholder="Town/City" required/><p id="townerror" style="color:red"></p><br/>
                 <input type="text" id="county" name="county" placeholder="County"/>
                 
