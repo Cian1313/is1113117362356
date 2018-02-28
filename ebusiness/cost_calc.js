@@ -27,6 +27,7 @@ function calcSub()
     
   //Passing variable in the calaDisVatTotal function
     calcDisVatTotal(argSubTotal)
+    hidebtnProceed()
 }//End of function
 
 // This function calculates the VAT and discount amounts

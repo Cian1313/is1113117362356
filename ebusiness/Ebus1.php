@@ -13,7 +13,7 @@
     </head>
     
     <body>
-        <h1 class="header2">Products</h1>
+        <h1 class="header3">Products</h1>
         
         <div class="formpage">
             <h3>Select a Product</h3>
@@ -95,8 +95,8 @@
                 <button type="submit" id="btnProceed" class="cart" hidden>Add to Shopping Cart</button>
                 
             </form>
-            
-            
+        
+            <br/>
             <br/>
             
             <!--When button is clicked calls calcSub() function to determine cost-->
