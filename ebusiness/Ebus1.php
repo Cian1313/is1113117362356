@@ -92,8 +92,7 @@
                     <input type="text" id="total" value="0.00" name="total" readonly/>
                 </label>
                 <br/>
-                <button type="submit" id="btnProceed" class="cart" hidden>Add to Shopping Cart</button>
-                
+                <button type="submit" id="btnProceed" class="cart" hidden disabled>Add to Shopping Cart</button>
             </form>
         
             <br/>
