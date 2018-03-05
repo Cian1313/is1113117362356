@@ -9,6 +9,8 @@ session_start();
        <!--Linking to external css files-->
        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
        <link rel="stylesheet" href="business.css" type="text/css"/>
+       <!--Adding favicon-->
+        <link rel="icon" href="../cloudServiceVendor/QuantumFav.PNG" type="image/gif" sizes="16x16">
    </head>
    <body>
        

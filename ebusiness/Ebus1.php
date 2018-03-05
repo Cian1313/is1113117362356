@@ -10,6 +10,8 @@
         <!--Linking to external css files-->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <link rel="stylesheet" href="business.css" type="text/css"/>
+        <!--Adding favicon-->
+        <link rel="icon" href="../cloudServiceVendor/QuantumFav.PNG" type="image/gif" sizes="16x16">
     </head>
     
     <body>
@@ -92,7 +94,7 @@
                     <input type="text" id="total" value="0.00" name="total" readonly/>
                 </label>
                 <br/>
-                <button type="submit" id="btnProceed" class="cart" hidden disabled>Add to Shopping Cart</button>
+                <button type="submit" id="btnProceed" class="cart" hidden>Add to Shopping Cart</button>
             </form>
         
             <br/>
