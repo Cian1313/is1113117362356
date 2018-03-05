@@ -11,6 +11,8 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <link rel="stylesheet" href="business.css" type="text/css"/>
+        <!--Adding favicon-->
+        <link rel="icon" href="../cloudServiceVendor/QuantumFav.PNG" type="image/gif" sizes="16x16">
     </head>
     
     <body>
@@ -24,7 +26,7 @@ session_start();
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <label for="name">Name: *</label><br/>
-                <span><input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/><p id="nameerror" style="color:red"></p></span>
+                <span><input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/><p id="nameerror" style="color:red"></p>
                 
                 <br/>
                 <br/>

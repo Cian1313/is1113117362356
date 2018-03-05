@@ -34,49 +34,33 @@
                 background-size: cover;
             }
             
-            /*Navbar style*/
-
-            ul 
-            {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: #8d989b;
-            }
-            
-            li 
-            {
-                float: left;
-            }
-            
-            li a 
-            {
-                display: block;
-                color: #adadad;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-            }
-            
-            .active 
-            {
-               color:white;
-            }
+           
  
         </style>
     </head>
     
     <body class="backgroundimage" >
-        <!--Nav-bar-->
-        <ul>
-            <!--Nav-bar items-->
-            <li><a href="../homepage.html">Home</a></li>
-            <li><a href="../CV/cv_page1.html">Cirriculum Vitae</a></li>
-            <li><a href="Sports.html" class="active" >Interests</a></li>
-            <li><a href="../cloudServiceVendor/cloudhomepage.html">Quantum Cloud Services</a></li>
-            <li><a href="../ebusiness/Ebus1.php">EBusiness</a></li>
-        </ul>
+    <div class="navbar">
+        <a href="../homepage.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Curriculum Vitae</button>
+            <div class="dropdown-content">
+            <a href="../CV/cv_page1.html">Personal Details</a>
+            <a href="../CV/cv_page2.html">Educational Details</a>
+            <a href="../CV/cv_page3.html">Work Experience</a>
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn active">Interest</button>
+            <div class="dropdown-content">
+            <a href="Sports.html">Sports</a>
+            <a href="travel.html">Travel</a>
+            <a href="cloudServices.html">Cloud Services</a>
+            </div>
+        </div>
+        <a href="../cloudServiceVendor/cloudhomepage.html">Quantum Cloud Services</a>
+        <a href="../ebusiness/Ebus1.php">EBusiness</a>
+    </div>
        
         <!--Page Content-->
         <h1 class="header">Sports</h1>
