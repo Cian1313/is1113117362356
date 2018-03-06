@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="business.css" type="text/css"/>
         <!--Adding favicon-->
         <link rel="icon" href="../cloudServiceVendor/QuantumFav.PNG" type="image/gif" sizes="16x16">
+        <meta charset="utf-8">
     </head>
     
     <body>
@@ -34,7 +35,7 @@
                 <br/>
                 
                 <label for="Amazon Web Services">
-                    <input type="radio" id="Amazon Web Services" name="product" onClick="disablebtnProceed()"/>
+                    <input type="radio" id="AmazonWebServices" name="product" onClick="disablebtnProceed()"/>
                     AWS @ $300
                 </label>
                 
@@ -42,7 +43,7 @@
                 <br/>
                 
                 <label for="Cloud 9">
-                    <input type="radio" id="Cloud 9" name="product" onClick="disablebtnProceed()"/>
+                    <input type="radio" id="Cloud9" name="product" onClick="disablebtnProceed()"/>
                     Cloud9 @ $200
                 </label>
                 
@@ -62,7 +63,7 @@
                 <label for="subtotal">
                     Sub Total:
                     <input type="text"  id="subtotal" value="0.00" readonly/>
-                </lable>
+                </label>
                 
                 <br/>
                 <br/>

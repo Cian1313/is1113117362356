@@ -13,6 +13,7 @@ session_start();
         <link rel="stylesheet" href="business.css" type="text/css"/>
         <!--Adding favicon-->
         <link rel="icon" href="../cloudServiceVendor/QuantumFav.PNG" type="image/gif" sizes="16x16">
+        <meta charset="utf-8">
     </head>
     
     <body>
@@ -26,7 +27,7 @@ session_start();
                 
                 <!--text-box for custmer to enter their name with a lable-->
                 <label for="name">Name: *</label><br/>
-                <span><input type="text" id="name" maxlength="30" name="name" placeholder="Your name..."required/><p id="nameerror" style="color:red"></p>
+                <input type="text" id="name" maxlength="30" name="name" placeholder="Your name..." required/><p id="nameerror" style="color:red"></p>
                 
                 <br/>
                 <br/>
@@ -50,9 +51,9 @@ session_start();
                 
                 <h4>Payment Details</h4>
                 <!--checkboxs for user to select which option they want to pay with-->
-                <label for"card">Select Payment Option: *</label><br/><br/>
-                <input type="radio" name="card" value="visa" checked><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Visa_2014_logo_detail.svg/2000px-Visa_2014_logo_detail.svg.png" height="15px"/>
-                <input type="radio" name="card" value="mastercard"><img src="http://www.freelogovectors.net/wp-content/uploads/2016/12/mastercard-logo1.png" height="20px"/>
+                <label for="card">Select Payment Option: *</label><br/><br/>
+                <input type="radio" name="card" value="visa" checked><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Visa_2014_logo_detail.svg/2000px-Visa_2014_logo_detail.svg.png" alt="visa" height="15"/>
+                <input type="radio" name="card" value="mastercard"><img src="http://www.freelogovectors.net/wp-content/uploads/2016/12/mastercard-logo1.png" alt="mastercard" height="20"/>
                 
                 <br/>
                 <br/>
