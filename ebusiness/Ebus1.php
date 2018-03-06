@@ -34,7 +34,7 @@
                 <br/>
                 <br/>
                 
-                <label for="Amazon Web Services">
+                <label for="AmazonWebServices">
                     <input type="radio" id="AmazonWebServices" name="product" onClick="disablebtnProceed()"/>
                     AWS @ $300
                 </label>
@@ -42,7 +42,7 @@
                 <br/>
                 <br/>
                 
-                <label for="Cloud 9">
+                <label for="Cloud9">
                     <input type="radio" id="Cloud9" name="product" onClick="disablebtnProceed()"/>
                     Cloud9 @ $200
                 </label>
