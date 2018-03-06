@@ -36,9 +36,10 @@ session_start();
            echo "Email: " ." ".$_SESSION["email"] . "<br>";
            echo "Total: " ." ".$_SESSION["total"];
            ?>
-      </div> 
+       
       </br>
       </br>
       <a href="../homepage.html" class="home">Home</a>
+      </div>
    </body>
 </html>
